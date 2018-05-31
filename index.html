@@ -6,52 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>index_Resto_bilan</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
     <header>
         <p>CITY GUIDE PARIS</p><hr>
-        <p>LE BILAN</p><hr>
-        <p><em>Salle - Service - Dressage- Goût</em></p>
+        <h1>LE BILAN</h1> <hr>
+        <nav>
+            <ul>
+                <em>
+                    <li> <a href="#la_salle" title="la salle"> Salle</a></li> -
+                    <li> <a href="#le_service" title="le service"> Service</a></li> -
+                    <li> <a href="#le_dressage"> Dressage</a></li> -
+                    <li> <a href=""> Goût</a></li>
+                </em>
+            </ul>
+         </nav>
     </header>
     <div id="conteneur">
-        <section class="plate"><img src="img/plate.jpg" alt="plate"></section><!--  section1 -->
-        
-        <section> <!-- section2 -->
+                <!--section 1: image plate  -->
+        <section class="plate"><img src="img/plate.jpg" alt="plate">
+           <div class="assiette">
+                <h4><em>Exemple de plat</em></h4>
+                <p>MERLU DE LIGNE <br> CAROTTES NOUVELLES <br>  ÉPICES DOUCES
+                </p>
+            </div>
+        </section> <!--FIN section 1: image plate  -->
+           
+        <section> <!--  debut section2 : la salle-->
             <aside class="droite"><img src="img/resto_01.jpg" alt=""></aside>
-            <article class="texte"> 
-                <h3>La salle</h3><hr>
-                <p>Ambiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est trés agréable, elle est ouverte sur la cuisine. Au fond de la salle, une jolie table ronde à vue sur une rue sur un petit jardin parisien. A l'entrée un joli sol en carreaux de céramique, quelques plumes de paon et de bien jolies bouteilles anciennes... Le nombre des tables est limité, ce qui rend le restaurant trés appréciable, mais aussi trés prisé</p></article>
+            <article class="texte place"> 
+                <h3> <a id="la_salle"></a> La salle</h3>
+                <p>Ambiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est trés agréable, elle est ouverte sur la cuisine. Au fond de la salle, une jolie table ronde à vue sur une rue sur un petit jardin parisien. A l'entrée un joli sol en carreaux de céramique, quelques plumes de paon et de bien jolies bouteilles anciennes... Le nombre des tables est limité, ce qui rend le restaurant trés appréciable, mais aussi trés prisé</p>
+            </article> 
         </section>
         <div id="clear"></div>
-        <section> <!-- section3 -->
+        <section> <!-- section3: le service -->
             <aside class="gauche"><img src="img/resto_02.jpg" alt=""></aside>
-            <article class="texte"> 
-                    <h3>Le service</h3><hr>
+            <article class="texte place"> 
+                    <h3><a id="le_service"></a> Le service</h3>
                     <p>Service toujours impeccable. L'ensemble de la table est servi rapidement, la corbeille de pain régulièrèment pleine, les serveurs expliquent le menu avec beaucoups d'attention et sont d'excellents conseils pour marier mets-vins.On reconnaît l'ensemble de l'équipe à leurs tabliers bleu.</p> 
             </article>
         </section>
         <div id="clear"></div>
-        <section> <!--section4-->
+        <section> <!--section4: le dressage-->
             <aside class="droite"><img src="img/resto_03.jpg" alt=""></aside>
-            <article class="texte">
-                <h3>Le dressage</h3><hr>
+            <article class="texte place">
+                <h3><a id="le_dressage"></a>Le dressage</h3>
                <p>Le dressage c'est un peu la marque de fabrique du chef, avec la cuisine biensûr. Ses plats sont de vrais petits tableaux de maître. Une belle recherche dans les formes et couleurs très agréable visuellement.</p>
             </article>
         </section>
         <div id="clear"></div>
         <section> <!-- section5 -->
             <aside class="gauche"><img src="img/resto_04.jpg" alt=""></aside>
-            <article class="texte">
-                <h3>Le goût</h3><hr>
+            <article class="texte place">
+                <h3><a id="le_gout"></a>Le goût</h3>
                 <p>Enfin ! ; le goût. C'est le point le plus important, et tellement bien ajusté ici. Les papilles voltent et virevoltent au rythme des saveurs si justes, des cuissons si parfaitement maîtrisées. Chaque plat, chaque association, rien n'est laissé au hasard, de l'élément principal à la toute petite feuille d'herbe délicatement posée sur le dessus du plat. Emerveillement des sens et frénésie de créativité sont au rendez-vous.</p>
             </article>
         </section>
         <div id="clear"></div>
-    </div>
+    </div><!--  fin div id= "conteneur" -->
     <div id="clear"></div>
     <footer>
-        city guide
-        SEPTIME
+        <img src="img/plan.png" alt="plan"><hr>
+              <h2>SEPTIME</h2><hr>
+             <p> 30 RUE DE CHARONNE - 75011 PARIS <br> 01 43 67 38 29 <br><em>Lundi soir - Mardi à Vendredi midi & soir</em> </p>
     </footer>
 </body>
 </html>

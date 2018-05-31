@@ -16,7 +16,6 @@ header{
     margin-left: 30%;
 }
 #conteneur{
-    /* background: green; */
      height: 2600px;
      border: none;
 }
@@ -26,17 +25,41 @@ header{
 .gauche{
     float: left;
 }
-.texte{
+/* .texte{
     display: inline;
-}
+} */
 #clear{
     clear: both;
 }
 footer{
-    background: pink;
     text-align: center;
     width: 40%;
     height: 10%;
     border: none;
     margin-left: 30%;
 }
+nav ul li {
+    display: inline;
+    font-size: x-large;
+}
+.assiette {
+   
+    float: right;
+    margin-top: 14%;
+    margin-right: 20%;
+    text-align: right;
+}
+h4{
+    text-decoration: underline;
+}
+.place {
+    display: inline;
+    float: right;
+    width: 45%;
+    margin-top: 19%;
+    margin-right: 15px;
+    margin-left: 5px;
+ }
+ h3{
+     border-bottom: 2px solid black;
+ }
