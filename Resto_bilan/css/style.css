@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS feuille de style index_resto_bilan  */
+body{
+    background: white /* #ecedef */;
+    margin:0 auto;
+    width: 1024px;
+    border: none;
+    box-align: center;
+   
+}
+header{
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    border: none;
+    margin-left: 30%;
+}
+#conteneur{
+    /* background: green; */
+     height: 2600px;
+     border: none;
+}
+.droite{
+    float: right;
+}
+.gauche{
+    float: left;
+}
+.texte{
+    display: inline;
+}
+#clear{
+    clear: both;
+}
+footer{
+    background: pink;
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    border: none;
+    margin-left: 30%;
+}
