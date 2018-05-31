@@ -5,13 +5,15 @@ body{
     margin:0 auto;
     width: 1024px;
     border: none;
+    box-align: center;
    
 }
 header{
-    background: yellow;
-    width: 100%;
+    text-align: center;
+    width: 40%;
     height: 10%;
     border: none;
+    margin-left: 30%;
 }
 #conteneur{
     /* background: green; */
@@ -32,5 +34,9 @@ header{
 }
 footer{
     background: pink;
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    border: none;
+    margin-left: 30%;
 }
-#bas
