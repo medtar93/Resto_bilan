@@ -1,8 +1,11 @@
 @charset "utf-8";
 /* CSS feuille de style index_resto_bilan  */
 /* body */
-
+html {
+    background: silver;
+}
 body {
+
     background: white ;
     margin:0 auto;
     width: 1024px;
@@ -11,12 +14,21 @@ body {
    }
 /* Header */
 
-header{
+header {
     text-align: center;
     width: 40%;
     height: 10%;
     border: none;
     margin-left: 30%;
+}
+h1{
+    font-family: 'Old Standard TT', serif;
+}
+.entete {
+    padding-top: 13%;
+}
+nav {
+margin-right:11%;
 }
 nav ul li {
     display: inline;
@@ -25,27 +37,28 @@ nav ul li {
 a{ /* pour que la couleur et le soulignement du lien ne soit plus visble */
     text-decoration: none;
     color: black;
+  
 }
 /* div id conteneur */
-#conteneur{
+#conteneur {
     height: 2600px;
     border: none;
 }
 /* structure général des sections */
-section{
+section {
     margin-top: -5px;
     width: 1024px;
     height: auto;
     border: none;
 }
-.droite{
+.droite {
     float: right;
 }
-.gauche{
+.gauche {
     float: left;
 }
 
-#clear{
+#clear {
     clear: both;
 }
 
@@ -58,14 +71,14 @@ section{
     float: left;
 } 
 
-.assiette h4{
+.assiette h4 {
    border-bottom: 2px solid black;
    text-align: right;
    margin-top:20%;
    margin-left: 30%;
    margin-right: 15%;
 }
-.assiette p{
+.assiette p {
     text-align: right;
     margin-right: 15%;
 }
@@ -83,7 +96,7 @@ h3{ /* border de la qui souligne le titre dans la section 1 */
 }
 
 /* footer */
-footer{
+footer {
     text-align: center;
     width: 40%;
     height: 10%;
@@ -99,7 +112,10 @@ footer div {
     margin-left: 125px;
 
 }
-h5{
+h2{
+    font-family: 'Old Standard TT', serif;
+}
+h5 {
     text-align: center;
     padding-top: 48px;
     }
