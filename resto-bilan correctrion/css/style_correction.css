@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* style page restaurant Septime City Guide Akbar */
+
+body{
+    background: #3256cd;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 800;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+/* quelques couleurs */
+.orange{
+    background: #f7a712;
+}
+
+.vert{
+    background: #0f9136;
+}
+
+.bleu{
+    background: #137ab6;
+}
+
+#wrapper{
+    background: #fff;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* header centré */
+
+
+header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+ }
+ header h2, footer h2{
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+ }
+
+/* le menu nav  */
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+/* les class pour faire flotter les contenus */
+.agauche{
+    float: left;
+    width: 500px;
+    height: 500px;
+
+}
+
+.adroite{
+    float: right;
+    width: 500px;
+    height: 500px;
+
+}
+
+section{
+    min-height: 500px;
+    max-height: 500px;
+}
+
+/* pied de page */
+footer{
+    background-image: url('../img/plan.png') ;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 500px;
+}
+footer h4{
+    padding-top: 50px;
+    font-size: 40px;
+}
+ .center{
+     margin:0 auto;
+ }
+ .note {
+	background: #000;
+	color: goldenrod;
+	width: 200px;
+	margin-left: 10px;
+}

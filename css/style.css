@@ -48,7 +48,7 @@ a{ /* pour que la couleur et le soulignement du lien ne soit plus visble */
 /* structure général des sections */
 section {
     margin-top: -5px;
-    width: 1024px;
+    width: 1000px;
     height: auto;
     border: none;
 }
